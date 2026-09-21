@@ -34,12 +34,12 @@
             <!-- Soal 1 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal1')">
-                    <span class="text-lg">Soal 1: Perangkat Mikrotik Fiber Box Tanpa Port Ethernet[cite: 1]</span>
+                    <span class="text-lg">Soal 1: Perangkat Mikrotik Fiber Box Tanpa Port Ethernet</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal1" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi membeli Mikrotik Fiber Box (perangkat outdoor) yang memiliki 5 port SFP tanpa satupun port Ethernet (RJ45). Saat akan dikonfigurasi di area site menggunakan laptop, teknisi tersebut kebingungan karena laptopnya hanya memiliki port LAN. Alat bantu krusial apa yang harus disiapkan agar ia bisa meremote alat tersebut?[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi membeli Mikrotik Fiber Box (perangkat outdoor) yang memiliki 5 port SFP tanpa satupun port Ethernet (RJ45). Saat akan dikonfigurasi di area site menggunakan laptop, teknisi tersebut kebingungan karena laptopnya hanya memiliki port LAN. Alat bantu krusial apa yang harus disiapkan agar ia bisa meremote alat tersebut?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -48,14 +48,14 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kabel USB to Serial Console RS232 untuk mendapatkan akses ke terminal CLI.[cite: 1]</span>
+                                    <span class="correct-answer">Kabel USB to Serial Console RS232 untuk mendapatkan akses ke terminal CLI.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Ini adalah jawaban yang paling tepat secara teknis. Perangkat enterprise (terutama yang tidak memiliki port ethernet tembaga) biasanya menyediakan port serial RJ45 atau USB untuk akses konsol fisik darurat. Karena laptop modern tidak memiliki port serial, konverter "USB to Serial" mutlak dibutuhkan untuk melakukan inisialisasi konfigurasi pertama kali (memberikan IP) sebelum bisa diremote via jaringan optik.</p>
                                 </div>
                             </li>
                             <li class="flex items-start text-gray-500">
                                 <span class="text-red-500 mr-2">✗</span>
                                 <div>
-                                    <span>Modul konverter dari antarmuka SFP ke antarmuka Ethernet (Copper SFP Transceiver).[cite: 1]</span>
+                                    <span>Modul konverter dari antarmuka SFP ke antarmuka Ethernet (Copper SFP Transceiver).</span>
                                     <p class="text-sm mt-1"><em>Salah karena:</em> Meskipun secara teori bisa digunakan (jika teknisi memilikinya), SFP Copper seringkali harus dikonfigurasi dulu agar portnya menyala, dan tidak semua router otomatis mengaktifkan port SFP yang baru ditancapkan tanpa konfigurasi awal.</p>
                                 </div>
                             </li>
@@ -67,12 +67,12 @@
             <!-- Soal 2 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal2')">
-                    <span class="text-lg">Soal 2: Penanganan Loss Sinyal Optik di ODP[cite: 1]</span>
+                    <span class="text-lg">Soal 2: Penanganan Loss Sinyal Optik di ODP</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal2" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi mengukur daya optik penerimaan (Rx) di rumah pelanggan dan mendapatkan nilai -31 dBm (batas toleransi -27 dBm). Jika kabel sepanjang jalur kondisinya baik, modifikasi apa di level ODP yang dapat menyelamatkan koneksi klien?[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi mengukur daya optik penerimaan (Rx) di rumah pelanggan dan mendapatkan nilai -31 dBm (batas toleransi -27 dBm). Jika kabel sepanjang jalur kondisinya baik, modifikasi apa di level ODP yang dapat menyelamatkan koneksi klien?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -81,14 +81,14 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Memindahkan port pelanggan ke Splitter dengan rasio lebih kecil (misal 1:8) agar mendapatkan porsi cahaya lebih besar.[cite: 1]</span>
+                                    <span class="correct-answer">Memindahkan port pelanggan ke Splitter dengan rasio lebih kecil (misal 1:8) agar mendapatkan porsi cahaya lebih besar.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Redaman sinyal optik berbanding lurus dengan rasio splitter pasif. Splitter 1:16 memiliki redaman sekitar ~14 dB, sedangkan 1:8 sekitar ~10.5 dB. Jika sinyal -31 dBm, memindahkannya ke splitter 1:8 akan memberikan penguatan sinyal sekitar +3.5 dBm, sehingga sinyal Rx klien akan menjadi sekitar -27.5 dBm (mendekati/masuk batas toleransi -27 dBm).</p>
                                 </div>
                             </li>
                             <li class="flex items-start text-gray-500">
                                 <span class="text-red-500 mr-2">✗</span>
                                 <div>
-                                    <span>Membersihkan seluruh ujung pin tembaga pada konektor RJ45 pelanggan menggunakan cairan alkohol isopropil[cite: 1]</span>
+                                    <span>Membersihkan seluruh ujung pin tembaga pada konektor RJ45 pelanggan menggunakan cairan alkohol isopropil</span>
                                     <p class="text-sm mt-1"><em>Salah karena:</em> Masalah utamanya adalah redaman pada jalur fiber optik (Rx -31 dBm). Membersihkan pin tembaga (kabel UTP LAN) tidak ada hubungannya sama sekali dengan sinyal cahaya optik dari ODP ke modem.</p>
                                 </div>
                             </li>
@@ -100,12 +100,12 @@
             <!-- Soal 3 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal3')">
-                    <span class="text-lg">Soal 3: Perangkat Pemancar Optik Utama (OLT)[cite: 1]</span>
+                    <span class="text-lg">Soal 3: Perangkat Pemancar Optik Utama (OLT)</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal3" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Perangkat manakah yang berfungsi sebagai terminal pemancar optik utama yang mengarah ke pelanggan?[cite: 1]
+                        <strong>Pertanyaan:</strong> Perangkat manakah yang berfungsi sebagai terminal pemancar optik utama yang mengarah ke pelanggan?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -114,7 +114,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Perangkat OLT (Optical Line Terminal) yang menjadi induk pemancar kendali jaringan PON[cite: 1]</span>
+                                    <span class="correct-answer">Perangkat OLT (Optical Line Terminal) yang menjadi induk pemancar kendali jaringan PON</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> OLT (Optical Line Terminal) adalah perangkat keras titik akhir yang berada di Central Office (Sentral/ISP) yang berfungsi mengubah sinyal elektrik dari router core menjadi sinyal optik, lalu memancarkannya ke jaringan PON (Passive Optical Network) menuju ke modem/ONU di rumah pelanggan.</p>
                                 </div>
                             </li>
@@ -126,12 +126,12 @@
             <!-- Soal 4 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal4')">
-                    <span class="text-lg">Soal 4: Kesalahan Perakitan Fast Connector[cite: 1]</span>
+                    <span class="text-lg">Soal 4: Kesalahan Perakitan Fast Connector</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal4" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Siswa magang merakit Fast Connector secara manual. OPM mendeteksi loss sinyal sangat parah (-35 dB). Kesalahan fundamental saat perakitan konektor ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Siswa magang merakit Fast Connector secara manual. OPM mendeteksi loss sinyal sangat parah (-35 dB). Kesalahan fundamental saat perakitan konektor ini adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -140,7 +140,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Ujung potongan kaca (cleave length) kurang panjang sehingga menyisakan rongga celah udara (air gap) yang memblokir cahaya.[cite: 1]</span>
+                                    <span class="correct-answer">Ujung potongan kaca (cleave length) kurang panjang sehingga menyisakan rongga celah udara (air gap) yang memblokir cahaya.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Fast connector (konektor mekanik) bekerja dengan cara mensejajarkan potongan inti fiber baru dengan potongan fiber yang sudah tertanam di dalam konektor dari pabrik (di dalam V-groove yang berisi gel index-matching). Jika cleaver memotong kaca terlalu pendek, ujung fiber yang dimasukkan tidak akan bersentuhan dengan fiber internal, menciptakan 'air gap' (celah udara). Perbedaan indeks bias antara kaca dan udara akan menyebabkan refleksi Fresnel parah, yang berujung pada loss redaman yang sangat tinggi (seperti -35 dB).</p>
                                 </div>
                             </li>
@@ -152,12 +152,12 @@
             <!-- Soal 5 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal5')">
-                    <span class="text-lg">Soal 5: Konfigurasi Layanan Triple Play FTTH[cite: 1]</span>
+                    <span class="text-lg">Soal 5: Konfigurasi Layanan Triple Play FTTH</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal5" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Infrastruktur FTTH mengusung layanan Triple Play. Jika pelanggan mengeluhkan siaran TV sering patah-patah saat ada anggota keluarga mendownload file berukuran besar, fitur jaringan esensial apa yang belum dikonfigurasi?[cite: 1]
+                        <strong>Pertanyaan:</strong> Infrastruktur FTTH mengusung layanan Triple Play. Jika pelanggan mengeluhkan siaran TV sering patah-patah saat ada anggota keluarga mendownload file berukuran besar, fitur jaringan esensial apa yang belum dikonfigurasi?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -166,7 +166,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Fitur pemisahan jaringan VLAN dan manajemen prioritas antrean (Quality of Service) untuk paket data video.[cite: 1]</span>
+                                    <span class="correct-answer">Fitur pemisahan jaringan VLAN dan manajemen prioritas antrean (Quality of Service) untuk paket data video.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Triple Play mengirimkan Data (Internet), Voice (Telepon), dan Video (IPTV) melalui satu jalur fisik fiber optik. Agar paket video (yang butuh realtime stream) tidak tergencet oleh unduhan file besar (paket data internet), ISP harus memisahkan layanannya menggunakan VLAN yang berbeda. Selain itu, Quality of Service (QoS) harus diterapkan untuk memberikan prioritas tertinggi (prioritas antrean) pada trafik IPTV agar siaran TV tidak patah-patah (buffering) saat bandwidth internet sedang penuh.</p>
                                 </div>
                             </li>
@@ -178,12 +178,12 @@
             <!-- Soal 6 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal6')">
-                    <span class="text-lg">Soal 6: Alat Ukur Jarak Kabel FO Putus[cite: 1]</span>
+                    <span class="text-lg">Soal 6: Alat Ukur Jarak Kabel FO Putus</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal6" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Kabel jalur utama (feeder) antar kecamatan putus. Panjang jalur tersebut 20 KM. Alat ukur fiber optik apa yang secara presisi harus ditembakkan untuk mengetahui titik kilometer pasti lokasi putusnya kabel?[cite: 1]
+                        <strong>Pertanyaan:</strong> Kabel jalur utama (feeder) antar kecamatan putus. Panjang jalur tersebut 20 KM. Alat ukur fiber optik apa yang secara presisi harus ditembakkan untuk mengetahui titik kilometer pasti lokasi putusnya kabel?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -192,14 +192,14 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Instrumen OTDR (Optical Time-Domain Reflectometer) untuk memetakan jarak kejadian putus melalui grafik pantulan balik.[cite: 1]</span>
+                                    <span class="correct-answer">Instrumen OTDR (Optical Time-Domain Reflectometer) untuk memetakan jarak kejadian putus melalui grafik pantulan balik.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> OTDR bekerja dengan mengirimkan pulsa cahaya ke dalam fiber optik dan mengukur pantulan cahaya yang kembali (backscatter). Karena kecepatan cahaya konstan, OTDR mengukur waktu yang dibutuhkan pulsa untuk kembali, lalu mengkalkulasinya menjadi jarak. Jika kabel putus di titik 5 KM, grafik OTDR akan menunjukkan penurunan drastis (drop event) yang tajam tepat di koordinat jarak 5 KM, memudahkan tim perbaikan mencari lokasi galian/tiang yang rusak.</p>
                                 </div>
                             </li>
                             <li class="flex items-start text-gray-500">
                                 <span class="text-red-500 mr-2">✗</span>
                                 <div>
-                                    <span>Alat ukur Visual Fault Locator (Senter FO) berkekuatan tinggi agar cahaya tembus terlihat di lokasi tanah longsor.[cite: 1]</span>
+                                    <span>Alat ukur Visual Fault Locator (Senter FO) berkekuatan tinggi agar cahaya tembus terlihat di lokasi tanah longsor.</span>
                                     <p class="text-sm mt-1"><em>Salah karena:</em> Senter FO (VFL) hanya efektif untuk jarak sangat pendek (maksimal 10-15 KM, itu pun sangat redup) dan hanya bisa dilihat langsung secara fisik (jika kabel bocor di permukaan). Untuk jarak antar kecamatan 20 KM, VFL tidak akan berfungsi.</p>
                                 </div>
                             </li>
@@ -211,12 +211,12 @@
             <!-- Soal 7 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal7')">
-                    <span class="text-lg">Soal 7: Arsitektur Pasif FTTH (PON)[cite: 1]</span>
+                    <span class="text-lg">Soal 7: Arsitektur Pasif FTTH (PON)</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal7" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Sebuah perumahan sering mengalami pemadaman listrik bergilir di gardu distribusinya, namun gedung sentral OLT (ISP) dan rumah pelanggan sama-sama memiliki UPS cadangan. Desain topologi pasif FTTH (PON) dipilih karena....[cite: 1]
+                        <strong>Pertanyaan:</strong> Sebuah perumahan sering mengalami pemadaman listrik bergilir di gardu distribusinya, namun gedung sentral OLT (ISP) dan rumah pelanggan sama-sama memiliki UPS cadangan. Desain topologi pasif FTTH (PON) dipilih karena....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -225,7 +225,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kotak distribusi jalanan (ODC/ODP) berisi kaca pembagi optik pasif yang sama sekali tidak memerlukan suplai listrik.[cite: 1]</span>
+                                    <span class="correct-answer">Kotak distribusi jalanan (ODC/ODP) berisi kaca pembagi optik pasif yang sama sekali tidak memerlukan suplai listrik.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> PON adalah singkatan dari <em>Passive Optical Network</em>. Elemen 'Passive' mengacu pada alat pemecah sinyal cahaya (Splitter) yang berada di tiang jalanan (ODP) atau kotak kabinet (ODC). Splitter terbuat murni dari prisma kaca optik yang membagi cahaya secara fisik tanpa menggunakan komponen elektronik aktif, sehingga bebas dari ketergantungan listrik PLN di tengah jalan. Selama sentral ISP (OLT) dan modem pelanggan (ONU) menyala (pakai UPS), internet akan tetap jalan, meskipun gardu PLN perumahan mati.</p>
                                 </div>
                             </li>
@@ -237,12 +237,12 @@
             <!-- Soal 8 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal8')">
-                    <span class="text-lg">Soal 8: Kabel Multimode untuk Jarak Jauh[cite: 1]</span>
+                    <span class="text-lg">Soal 8: Kabel Multimode untuk Jarak Jauh</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal8" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Jika teknisi memaksakan penggunaan kabel Multimode untuk sambungan antar kota berjarak 40 KM, sinyal yang tiba di ujung penerima akan rusak dan tidak terbaca. Secara fisika optik, fenomena pelemahan ini terjadi karena...[cite: 1]
+                        <strong>Pertanyaan:</strong> Jika teknisi memaksakan penggunaan kabel Multimode untuk sambungan antar kota berjarak 40 KM, sinyal yang tiba di ujung penerima akan rusak dan tidak terbaca. Secara fisika optik, fenomena pelemahan ini terjadi karena...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -251,7 +251,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Terjadi pemantulan zig-zag di inti kaca yang memicu pelebaran pulsa cahaya (Modal Dispersion).[cite: 1]</span>
+                                    <span class="correct-answer">Terjadi pemantulan zig-zag di inti kaca yang memicu pelebaran pulsa cahaya (Modal Dispersion).</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Kabel Multimode memiliki diameter inti (core) yang besar (50 atau 62.5 mikron). Hal ini menyebabkan cahaya masuk dalam berbagai sudut (banyak mode) dan memantul zig-zag. Cahaya yang memantul tajam akan menempuh lintasan lebih panjang (dan tiba lebih lambat) dibandingkan cahaya yang merambat lurus di tengah. Pada jarak jauh (seperti 40 KM), perbedaan waktu kedatangan ini menyebabkan pulsa cahaya melebar, bertumpang tindih dengan sinyal berikutnya, dan menjadi rusak (tidak bisa dibaca receiver). Fenomena ini murni disebut Dispersi Modal (Modal Dispersion). Untuk jarak jauh, wajib menggunakan Singlemode (inti sangat kecil 9 mikron, cahaya merambat lurus, tanpa pantulan zig-zag).</p>
                                 </div>
                             </li>
@@ -263,12 +263,12 @@
             <!-- Soal 9 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal9')">
-                    <span class="text-lg">Soal 9: Negosiasi Modul SFP 10G dan 1G[cite: 1]</span>
+                    <span class="text-lg">Soal 9: Negosiasi Modul SFP 10G dan 1G</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal9" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal9" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Router Mikrotik utama sekolah (CCR1072) memiliki port SFP+ berkapasitas 10 Gbps. Saat dihubungkan via fiber optik ke switch distribusi di lab yang masih menggunakan modul SFP biasa berkapasitas 1 Gbps, apa hasil dari negosiasi sinkronisasi kedua perangkat tersebut?[cite: 1]
+                        <strong>Pertanyaan:</strong> Router Mikrotik utama sekolah (CCR1072) memiliki port SFP+ berkapasitas 10 Gbps. Saat dihubungkan via fiber optik ke switch distribusi di lab yang masih menggunakan modul SFP biasa berkapasitas 1 Gbps, apa hasil dari negosiasi sinkronisasi kedua perangkat tersebut?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -277,14 +277,14 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Koneksi jaringan akan selalu gagal karena perbedaan protokol arsitektur pada perangkat keras.[cite: 1]</span>
+                                    <span class="correct-answer">Koneksi jaringan akan selalu gagal karena perbedaan protokol arsitektur pada perangkat keras.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Berbeda dengan kabel tembaga (UTP) yang pintar dan bisa menurunkan kecepatan otomatis (auto-negotiation dari 1000Mbps ke 100Mbps), modul SFP optik umumnya "keras kepala". Sebuah transceiver SFP+ 10G mentransmisikan data dengan frekuensi dan modulasi spesifik 10 Gbps. Jika dihadapkan dengan SFP 1G di seberang, protokol 1G tidak akan bisa membaca dan menyesuaikan kecepatan 10G. Sinkronisasi (Link Up) tidak akan terjadi. Solusinya: Router CCR1072 harus dipasangi modul SFP 1G (bukan SFP+) agar setara dengan switch lawannya, karena port SFP+ di router fisik umumnya kompatibel mundur untuk ditancapi modul SFP 1G yang lebih pelan.</p>
                                 </div>
                             </li>
                             <li class="flex items-start text-gray-500">
                                 <span class="text-red-500 mr-2">✗</span>
                                 <div>
-                                    <span>Port SFP+ akan melakukan penyesuaian (auto-negotiation) dengan menurunkan kecepatan menjadi 1 Gbps[cite: 1]</span>
+                                    <span>Port SFP+ akan melakukan penyesuaian (auto-negotiation) dengan menurunkan kecepatan menjadi 1 Gbps</span>
                                     <p class="text-sm mt-1"><em>Salah karena:</em> Modul fisik optik SFP/SFP+ pada dasarnya tidak memiliki kemampuan auto-negotiation lintas arsitektur hardware seperti port tembaga.</p>
                                 </div>
                             </li>
@@ -296,12 +296,12 @@
             <!-- Soal 10 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal10')">
-                    <span class="text-lg">Soal 10: Pengaruh Pengacakan Warna Kabel UTP[cite: 1]</span>
+                    <span class="text-lg">Soal 10: Pengaruh Pengacakan Warna Kabel UTP</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal10" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Siswa merakit kabel UTP 70 meter dengan susunan warna acak (ujung A dan B sama persis). LAN tester menyala urut, tapi transfer data sangat lambat. Penjelasan logisnya adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Siswa merakit kabel UTP 70 meter dengan susunan warna acak (ujung A dan B sama persis). LAN tester menyala urut, tapi transfer data sangat lambat. Penjelasan logisnya adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -310,7 +310,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Pengacakan warna merusak hukum fisika twisted (kawat berpilin pasangan) yang bertugas saling meniadakan interferensi gelombang elektromagnetik (crosstalk)[cite: 1]</span>
+                                    <span class="correct-answer">Pengacakan warna merusak hukum fisika twisted (kawat berpilin pasangan) yang bertugas saling meniadakan interferensi gelombang elektromagnetik (crosstalk)</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> UTP (Unshielded Twisted Pair) mengandalkan lilitan (twist) sepasang kawat (misal Putih-Orange & Orange) untuk membatalkan noise radiasi elektromagnetik dari luar maupun interferensi dari kabel itu sendiri (Crosstalk). Aturan standar T568A/B menempatkan pasangan kawat ini secara presisi pada pin-pin transmisi RX/TX. Jika warna diacak sesuka hati, pin TX (pengirim) mungkin mengambil satu urat dari pasangan orange dan satu urat dari pasangan hijau (split pair). Akibatnya, efek peredaman noise (pembatalan fasa) hilang. Pada jarak dekat mungkin sinyal selamat, tapi pada 70 meter, data akan hancur oleh crosstalk, banyak packet loss, dan transmisi menjadi sangat lambat, meski LAN tester murah mendeteksi kabel 'tersambung' 1 ke 1 secara elektrik.</p>
                                 </div>
                             </li>
@@ -322,12 +322,12 @@
             <!-- Soal 11 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal11')">
-                    <span class="text-lg">Soal 11: Implementasi Fitur 'Port Combo'[cite: 1]</span>
+                    <span class="text-lg">Soal 11: Implementasi Fitur 'Port Combo'</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal11" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal11" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Beberapa perangkat switch Mikrotik memiliki fitur 'Port Combo' (misal: port SFP1 dan port Ether1 menggunakan interface logikal yang sama). Aturan implementasi desain yang wajib dipatuhi administrator untuk port jenis ini adalah....[cite: 1]
+                        <strong>Pertanyaan:</strong> Beberapa perangkat switch Mikrotik memiliki fitur 'Port Combo' (misal: port SFP1 dan port Ether1 menggunakan interface logikal yang sama). Aturan implementasi desain yang wajib dipatuhi administrator untuk port jenis ini adalah....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -336,7 +336,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Hanya satu media (Fiber atau UTP) yang bisa aktif pada satu waktu, tidak bisa bersamaan.[cite: 1]</span>
+                                    <span class="correct-answer">Hanya satu media (Fiber atau UTP) yang bisa aktif pada satu waktu, tidak bisa bersamaan.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> "Port Combo" adalah fitur dimana pabrikan merancang satu 'otak' chip interface (MAC address internal) yang dicabangkan menjadi dua antarmuka fisik luar (biasanya 1 port SFP optik dan 1 port UTP tembaga). Tujuan pembuatannya adalah memberikan fleksibilitas pada teknisi untuk memilih medianya tanpa mempermahal komponen hardware switch. Karena berbagi sirkuit silikon internal yang sama, aturannya keras: secara kelistrikan dan logika, tidak mungkin keduanya digunakan secara paralel/aktif dalam satu detik yang sama. Mencolokkan keduanya sekaligus tidak akan memicu load-balancing, melainkan switch akan memprioritaskan yang disetting (atau port fiber sebagai prioritas utama), sementara kabel lainnya menjadi dummy/mati.</p>
                                 </div>
                             </li>
@@ -348,12 +348,12 @@
             <!-- Soal 12 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal12')">
-                    <span class="text-lg">Soal 12: Kerusakan Pin 4,5,7,8 pada UTP[cite: 1]</span>
+                    <span class="text-lg">Soal 12: Kerusakan Pin 4,5,7,8 pada UTP</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal12" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Kabel UTP Straight rusak ringan. LAN tester menunjukkan pin 4, 5, 7, 8 putus, tapi 1, 2, 3, 6 normal. Evaluasi status operasional PC tersebut adalah....[cite: 1]
+                        <strong>Pertanyaan:</strong> Kabel UTP Straight rusak ringan. LAN tester menunjukkan pin 4, 5, 7, 8 putus, tapi 1, 2, 3, 6 normal. Evaluasi status operasional PC tersebut adalah....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -362,7 +362,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kecepatan maksimal transfer informasi jaringan komputer tersebut secara otomatis akan dipangkas drastis berkurang tepat menjadi setengah dari kapasitas batas nominal awalnya (atau turun ke 100 Mbps).[cite: 1]</span>
+                                    <span class="correct-answer">Kecepatan maksimal transfer informasi jaringan komputer tersebut secara otomatis akan dipangkas drastis berkurang tepat menjadi setengah dari kapasitas batas nominal awalnya (atau turun ke 100 Mbps).</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Pada standar Ethernet 10/100 Mbps (Fast Ethernet), transfer data (Tx dan Rx) HANYA mengalir melalui 2 pasang kabel, yaitu pin 1 & 2 (sebagai Tx/Pemancar) dan pin 3 & 6 (sebagai Rx/Penerima). Pin 4, 5, 7, 8 saat itu tidak digunakan atau digunakan untuk PoE. Namun, pada standar Gigabit Ethernet (1000 Mbps), teknologi mewajibkan penggunaan ke-8 kawat tembaga secara serempak. Jadi, jika kawat 4,5,7,8 putus, koneksi tidak mati total, melainkan fitur autonegotiation kartu jaringan yang tadinya jalan di Gigabit akan secara pintar "jatuh bangun" menurunkan giginya menjadi 100 Mbps (Fast Ethernet), karena jalur yang selamat hanya pin 1, 2, 3, dan 6.</p>
                                 </div>
                             </li>
@@ -374,12 +374,12 @@
             <!-- Soal 13 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal13')">
-                    <span class="text-lg">Soal 13: Restorasi Fiber Optik Putus[cite: 1]</span>
+                    <span class="text-lg">Soal 13: Restorasi Fiber Optik Putus</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal13" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal13" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Sebuah jalur kabel Fiber Optik terputus di titik kilometer ke-5 akibat alat berat proyek. Mengingat kabel utama terdiri dari 24 core, solusi restorasi jaringan paling efisien secara biaya dan waktu operasional (MTTR) adalah.....[cite: 1]
+                        <strong>Pertanyaan:</strong> Sebuah jalur kabel Fiber Optik terputus di titik kilometer ke-5 akibat alat berat proyek. Mengingat kabel utama terdiri dari 24 core, solusi restorasi jaringan paling efisien secara biaya dan waktu operasional (MTTR) adalah.....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -388,7 +388,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Menyambung kembali bagian yang putus menggunakan Fusion Splicer dan melindunginya dengan enclosure[cite: 1]</span>
+                                    <span class="correct-answer">Menyambung kembali bagian yang putus menggunakan Fusion Splicer dan melindunginya dengan enclosure</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Menarik bentangan baru 24 core sepanjang 5 kilometer dari sentral memakan waktu yang sangat lama berhari-hari, perizinan tiang baru, dan biaya membengkak mahal (tidak efisien). Solusi paling standar dan masif diterapkan saat kabel fiber putus 'di jalan' adalah menemukan titik kerusakannya, merapikan kedua ujung potongannya, lalu melelehkannya kembali satu-persatu (24 core) menggunakan mesin fusion splicer. Setelah disambung sempurna, titik rawan perbaikan itu diamankan dan ditutup dengan tabung baja anti-air bernama *closure* (joint closure) sebelum digantung kembali di tiang atau dipendam dalam tanah.</p>
                                 </div>
                             </li>
@@ -400,12 +400,12 @@
             <!-- Soal 14 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal14')">
-                    <span class="text-lg">Soal 14: Kapasitas Throughput SFP+[cite: 1]</span>
+                    <span class="text-lg">Soal 14: Kapasitas Throughput SFP+</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal14" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Seorang Network Administrator menemukan port dengan label 'SFP+' (SFP Plus) pada router Mikrotik yang baru dibelinya. Jika ia merancang topologi backbone antar gedung, berapakah batas kapasitas throughput maksimal yang bisa Ia bebankan pada port tersebut?[cite: 1]
+                        <strong>Pertanyaan:</strong> Seorang Network Administrator menemukan port dengan label 'SFP+' (SFP Plus) pada router Mikrotik yang baru dibelinya. Jika ia merancang topologi backbone antar gedung, berapakah batas kapasitas throughput maksimal yang bisa Ia bebankan pada port tersebut?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -414,7 +414,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Mendukung kecepatan transfer data transmisi hingga batas maksimal 10 Gbps[cite: 1]</span>
+                                    <span class="correct-answer">Mendukung kecepatan transfer data transmisi hingga batas maksimal 10 Gbps</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Terminologi perangkat keras serat optik sudah paten di dunia jaringan. <br>- **SFP** (Small Form-factor Pluggable) biasa = batas limit maksimal **1 Gbps** (Gigabit). <br>- **SFP+** (SFP Plus) = peningkatan teknologi desain pin yang memungkinkan pelebaran bandwidth limit maksimal hingga **10 Gbps** (10 Gigabit). <br>- (Tambahan referensi: QSFP+ = 40 Gbps, QSFP28 = 100 Gbps).</p>
                                 </div>
                             </li>
@@ -426,12 +426,12 @@
             <!-- Soal 15 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal15')">
-                    <span class="text-lg">Soal 15: Pin PoE pada Standar 10/100[cite: 1]</span>
+                    <span class="text-lg">Soal 15: Pin PoE pada Standar 10/100</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal15" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Access Point dinyalakan menggunakan fitur PoE (Power over Ethernet) dari Switch melalui kabel UTP. Berdasarkan standar data transmisi 10/100, pin manakah yang memikul beban menghantarkan arus listrik tersebut?[cite: 1]
+                        <strong>Pertanyaan:</strong> Access Point dinyalakan menggunakan fitur PoE (Power over Ethernet) dari Switch melalui kabel UTP. Berdasarkan standar data transmisi 10/100, pin manakah yang memikul beban menghantarkan arus listrik tersebut?
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -440,7 +440,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Arus listrik daya PoE sepenuhnya dilewatkan secara eksklusif menggunakan kawat sisa nomor urut Pin 4, 5, 7, dan 8.[cite: 1]</span>
+                                    <span class="correct-answer">Arus listrik daya PoE sepenuhnya dilewatkan secara eksklusif menggunakan kawat sisa nomor urut Pin 4, 5, 7, dan 8.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Pada standar jaringan 10 Mbps atau 100 Mbps (Fast Ethernet), transfer data (Tx/Rx) dialokasikan mutlak pada pin 1, 2, 3, dan 6. Teknologi PoE (Power over Ethernet) tipe pasif maupun aktif awal memanfaatkan sisa 4 pin tembaga yang 'menganggur' secara eksklusif, yaitu pin 4 dan 5 (sebagai arus positif/V+) serta pin 7 dan 8 (sebagai arus negatif/ground/V-). Hal ini sangat efektif menghemat biaya tarikan kabel power terpisah menuju langit-langit gedung.</p>
                                 </div>
                             </li>
@@ -452,12 +452,12 @@
             <!-- Soal 16 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal16')">
-                    <span class="text-lg">Soal 16: Jarak Maksimal Kabel UTP (135m)[cite: 1]</span>
+                    <span class="text-lg">Soal 16: Jarak Maksimal Kabel UTP (135m)</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal16" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi memasang IP Camera di gerbang pabrik berjarak 135 meter menggunakan kabel UTP Cat6 tanpa perangkat tambahan. Analisis dampak teknis dan solusinya adalah....[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi memasang IP Camera di gerbang pabrik berjarak 135 meter menggunakan kabel UTP Cat6 tanpa perangkat tambahan. Analisis dampak teknis dan solusinya adalah....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -466,7 +466,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Sinyal data mengalami atenuasi (pelemahan) parah sehingga putus; solusinya menggunakan fiber optik atau menambah perangkat aktif switch/repeater di tengah jalur.[cite: 1]</span>
+                                    <span class="correct-answer">Sinyal data mengalami atenuasi (pelemahan) parah sehingga putus; solusinya menggunakan fiber optik atau menambah perangkat aktif switch/repeater di tengah jalur.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Standar desain global (EIA/TIA) membatasi penarikan kabel tembaga UTP (Ethernet) tanpa putus, baik cat 5, 5e, atau cat 6, di jarak batas krisis absolut 100 meter (90 meter solid, 10 meter patch). Di angka 135 meter, arus listrik sinyal data lemah tak mampu melawan resistansi panjangnya kawat tembaga, menyebabkan data hancur di jalan (atenuasi) dan IP kamera gagal tampil. Solusi rasional: Pasang repeater switch murah penambah daya di tengah jalur (misal di meter ke-70), atau tarik kabel Fiber Optik sekalian yang imun terhadap jarak (mampu berkilo-kilometer).</p>
                                 </div>
                             </li>
@@ -478,12 +478,12 @@
             <!-- Soal 17 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal17')">
-                    <span class="text-lg">Soal 17: Diagnosa Kerusakan Pola LAN Tester[cite: 1]</span>
+                    <span class="text-lg">Soal 17: Diagnosa Kerusakan Pola LAN Tester</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal17" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal17" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> PC klien dengan UTP T568B tidak mendapat IP. LAN Tester membaca pola: 1-1, 2-2, 3-3, 4-4, 5-6, 6-5, 7-7, 8-8. Diagnosa kerusakan pola tersebut adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> PC klien dengan UTP T568B tidak mendapat IP. LAN Tester membaca pola: 1-1, 2-2, 3-3, 4-4, 5-6, 6-5, 7-7, 8-8. Diagnosa kerusakan pola tersebut adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -492,7 +492,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Telah terjadi sebuah kecerobohan proses crimping (insersi crossed-pair) dimana letak salah satu urutan kawat jalur aliran data (RX) dengan urutan kabel fungsi beban listrik (PoE) saling bertukar posisi.[cite: 1]</span>
+                                    <span class="correct-answer">Telah terjadi sebuah kecerobohan proses crimping (insersi crossed-pair) dimana letak salah satu urutan kawat jalur aliran data (RX) dengan urutan kabel fungsi beban listrik (PoE) saling bertukar posisi.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Pada uji kabel Straight 1-to-1, pola lampu LAN tester ideal adalah 1-1 s/d 8-8. Namun pola 5-6 dan 6-5 menunjukkan tertukarnya urutan warna antara pin nomor 5 dan 6 saat dimasukkan ke dalam RJ45. Seperti dibahas sebelumnya, pin 6 adalah kawat krusial pengalir paket data (Rx). Sedangkan pin 5 adalah kawat kosong (atau pembawa strum positif PoE). Karena jantung data penerima (pin 6) tidak nyambung ke ujung lainnya dan malah bertukar ke pin kelistrikan (pin 5), maka paket DHCP dari router putus. Solusinya, gunting ulang RJ45 dan rapikan susunannya.</p>
                                 </div>
                             </li>
@@ -504,12 +504,12 @@
             <!-- Soal 18 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal18')">
-                    <span class="text-lg">Soal 18: Penggunaan UTP antar Gedung 250 Meter[cite: 1]</span>
+                    <span class="text-lg">Soal 18: Penggunaan UTP antar Gedung 250 Meter</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal18" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Sebuah sekolah ingin menghubungkan gedung A dan gedung B yang berjarak 250 meter tanpa halangan. Teknisi menyarankan penggunaan kabel UTP biasa (Ethernet). Evaluasi paling tepat terhadap saran teknisi tersebut adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Sebuah sekolah ingin menghubungkan gedung A dan gedung B yang berjarak 250 meter tanpa halangan. Teknisi menyarankan penggunaan kabel UTP biasa (Ethernet). Evaluasi paling tepat terhadap saran teknisi tersebut adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -518,7 +518,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Tidak tepat, jarak maksimal UTP stabil hanya 100 meter, sebaiknya memakai Fiber Optic[cite: 1]</span>
+                                    <span class="correct-answer">Tidak tepat, jarak maksimal UTP stabil hanya 100 meter, sebaiknya memakai Fiber Optic</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Jarak 250 meter melampaui batasan fisik absolut kawat tembaga (100 meter). Sinyal tegangan elektrik data tidak akan sanggup menembus kawat sejauh itu akibat redaman internal material (atenuasi konduktor). Belum lagi, menyeberang antar gedung pakai tembaga rawan tersambar petir. Saran teknisi sangat tidak kompeten. Pemilihan media kabel Fiber Optik (singlemode) adalah solusi mutlak, selain mampu menembus hingga 20 kilometer (menggunakan cahaya laser), harganya juga kini sangat terjangkau.</p>
                                 </div>
                             </li>
@@ -530,12 +530,12 @@
             <!-- Soal 19 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal19')">
-                    <span class="text-lg">Soal 19: Analisis Gangguan ODP 8 Pelanggan[cite: 1]</span>
+                    <span class="text-lg">Soal 19: Analisis Gangguan ODP 8 Pelanggan</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal19" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal19" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Terdapat 8 pelanggan yang rumahnya terhubung pada satu kotak ODP yang sama. Suatu pagi, ke-8 pelanggan tersebut serentak melaporkan internet mati total (LOS merah). Namun, ODP di blok sebelah normal. Titik gangguan yang paling logis adalah....[cite: 1]
+                        <strong>Pertanyaan:</strong> Terdapat 8 pelanggan yang rumahnya terhubung pada satu kotak ODP yang sama. Suatu pagi, ke-8 pelanggan tersebut serentak melaporkan internet mati total (LOS merah). Namun, ODP di blok sebelah normal. Titik gangguan yang paling logis adalah....
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -544,7 +544,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kabel distribusi dari ODC ke ODP terputus atau komponen splitter rasio 1:8 di dalam ODP mengalami kerusakan.[cite: 1]</span>
+                                    <span class="correct-answer">Kabel distribusi dari ODC ke ODP terputus atau komponen splitter rasio 1:8 di dalam ODP mengalami kerusakan.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Indikator 'LOS merah' (Loss of Signal) pada modem optik menunjukkan kabel putus secara fisik (tidak mendapat tembakan cahaya sama sekali). Mustahil jika ke-8 kabel pelangggan sengaja dipotong serentak bersamaan di rumah yang beda. Karena seluruh korban (8 orang) bersumber ke sarang induk yang sama (ODP lokal), namun tetangga di ODP blok sebelah aman (artinya sentral aman), maka akar penyakit 100% ada di hulu kotak ODP tersebut. Dua kemungkinan terbesarnya: kabel suplainya patah dari tiang ke ODP, atau kaca rasio pasif internal (splitter)-nya pecah di dalam box.</p>
                                 </div>
                             </li>
@@ -556,12 +556,12 @@
             <!-- Soal 20 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal20')">
-                    <span class="text-lg">Soal 20: Jarak Maksimal Kabel Drop Wire[cite: 1]</span>
+                    <span class="text-lg">Soal 20: Jarak Maksimal Kabel Drop Wire</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal20" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi membatasi penarikan kabel Drop Wire dari tiang ODP ke rumah pelanggan maksimal 150 meter. Dasar perancangan yang paling mendasari pembatasan jarak fisik ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi membatasi penarikan kabel Drop Wire dari tiang ODP ke rumah pelanggan maksimal 150 meter. Dasar perancangan yang paling mendasari pembatasan jarak fisik ini adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -570,7 +570,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Menghindari tingginya risiko kabel terputus akibat tekanan mekanis (seperti tertiup angin/beban gravitasi tarikan) di udara[cite: 1]</span>
+                                    <span class="correct-answer">Menghindari tingginya risiko kabel terputus akibat tekanan mekanis (seperti tertiup angin/beban gravitasi tarikan) di udara</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Kabel Drop Wire adalah kabel kecil terakhir yang menyambung masuk ke dalam loteng rumah pelanggan. Meskipun di dalamnya menggunakan core Fiber Optik (singlemode) yang secara transmisi laser bisa merambat lurus hingga 20 kilometer, strukturnya berbeda. Drop wire berukuran tipis. Jika dibentangkan melayang tanpa tiang penyangga dalam jarak melebihi 150 meter, bobot gravitasi dirinya dan terpaan angin badai akan menarik kawat sling tegang kuat, sehingga resiko putusnya core kaca sangat tinggi di tengah rentangan (Microbending & Macrobending putus).</p>
                                 </div>
                             </li>
@@ -582,12 +582,12 @@
             <!-- Soal 21 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal21')">
-                    <span class="text-lg">Soal 21: Solusi Jaringan di Area Tegangan Tinggi Listrik[cite: 1]</span>
+                    <span class="text-lg">Soal 21: Solusi Jaringan di Area Tegangan Tinggi Listrik</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal21" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal21" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Sebuah perusahaan manufaktur sering mengalami putus koneksi jaringan. Setelah dianalisis, hal ini terjadi karena kabel jaringan membentang sejajar dan menempel dengan kabel listrik tegangan tinggi mesin pabrik. Solusi infrastruktur terbaik berdasarkan media transmisi untuk mengatasi masalah ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Sebuah perusahaan manufaktur sering mengalami putus koneksi jaringan. Setelah dianalisis, hal ini terjadi karena kabel jaringan membentang sejajar dan menempel dengan kabel listrik tegangan tinggi mesin pabrik. Solusi infrastruktur terbaik berdasarkan media transmisi untuk mengatasi masalah ini adalah...
                     </div>
                     
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
@@ -596,7 +596,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Mengganti dengan kabel Fiber Optic karena cahaya kebal terhadap induksi medan elektromagnetik.[cite: 1]</span>
+                                    <span class="correct-answer">Mengganti dengan kabel Fiber Optic karena cahaya kebal terhadap induksi medan elektromagnetik.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Kawat tembaga (seperti UTP) menghantarkan data lewat aliran listrik voltase kecil yang rentan diganggu radiasi noise elektromagnet (EMI) dari mesin pabrik atau kabel PLN raksasa. Memasang kabel STP (berpelindung besi) pun belum tentu efektif jika radiasinya parah. Mengganti semua saluran menjadi kabel Fiber Optik (FO) adalah solusi mutlak 'peluru perak', mengingat materi konduktor utama FO adalah kaca silika dan menggunakan foton cahaya, bukan elektron, membuatnya tidak memiliki daya hantar arus dan 100% kebal tehadap induksi kilat petir maupun radiasi mesin las raksasa.</p>
                                 </div>
                             </li>
@@ -608,12 +608,12 @@
           <!-- Soal 22 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal22')">
-                    <span class="text-lg">Soal 22: Spesifikasi Teknis Redaman & Sensitivitas ONT[cite: 1]</span>
+                    <span class="text-lg">Soal 22: Spesifikasi Teknis Redaman & Sensitivitas ONT</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal22" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Mengacu pada catatan spesifikasi teknis daya di sudut diagram, berapakah batas redaman maksimal yang diizinkan (Redaman Max) dan batas sensitivitas penerimaan pada perangkat ONT pelanggan?[cite: 1]
+                        <strong>Pertanyaan:</strong> Mengacu pada catatan spesifikasi teknis daya di sudut diagram, berapakah batas redaman maksimal yang diizinkan (Redaman Max) dan batas sensitivitas penerimaan pada perangkat ONT pelanggan?
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -621,7 +621,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Batas Redaman Maksimal adalah 28 dB dan titik Sensitivitas ONT berada di level -27 dBm[cite: 1]</span>
+                                    <span class="correct-answer">Batas Redaman Maksimal adalah 28 dB dan titik Sensitivitas ONT berada di level -27 dBm</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Pada standar umum jaringan GPON kelas B+, Optical Power Budget (batas redaman dari OLT sampai ke ONT) maksimal adalah sekitar 28 dB. Sementara itu, titik sensitivitas penerima optik (receiver sensitivity) pada modem ONT pelanggan umumnya mentolerir hingga batas kritis -27 dBm. Lebih dari redaman itu, perangkat akan mengalami LOS (Loss of Signal).</p>
                                 </div>
                             </li>
@@ -633,12 +633,12 @@
             <!-- Soal 23 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal23')">
-                    <span class="text-lg">Soal 23: Diagnosa Kebocoran Laser VFL di Pigtail[cite: 1]</span>
+                    <span class="text-lg">Soal 23: Diagnosa Kebocoran Laser VFL di Pigtail</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal23" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal23" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi menembakkan laser merah VFL ke pigtail di dalam ODP, la melihat cahaya merah terang menyala menembus kulit jaket pelindung pigtail (pembungkus kuning). Diagnosa teknis atas temuan ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi menembakkan laser merah VFL ke pigtail di dalam ODP, la melihat cahaya merah terang menyala menembus kulit jaket pelindung pigtail (pembungkus kuning). Diagnosa teknis atas temuan ini adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -646,7 +646,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Telah terjadi retak tajam atau patah pada bagian inti core kaca di dalam selubung jaket pigtail tersebut (patah dalam).[cite: 1]</span>
+                                    <span class="correct-answer">Telah terjadi retak tajam atau patah pada bagian inti core kaca di dalam selubung jaket pigtail tersebut (patah dalam).</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Fungsi dari Visual Fault Locator (VFL/Senter FO) adalah melacak kebocoran cahaya (macrobending atau patahan). Cahaya laser seharusnya merambat lurus dan terkurung di dalam inti kaca (prinsip Total Internal Reflection). Jika cahaya menembus menyala terang hingga keluar dari kulit kabel PVC-nya, itu pertanda pasti bahwa core kaca di titik tersebut pecah/patah, sehingga cahaya bocor keluar dari jalur.</p>
                                 </div>
                             </li>
@@ -658,12 +658,12 @@
             <!-- Soal 24 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal24')">
-                    <span class="text-lg">Soal 24: Jenis Kabel Backbone FTTH (FTM ke ODC)[cite: 1]</span>
+                    <span class="text-lg">Soal 24: Jenis Kabel Backbone FTTH (FTM ke ODC)</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal24" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Berdasarkan arsitektur jaringan luas FTTH, jenis kabel utama apakah yang bertugas menghubungkan langsung antara modul FTM di Central Office menuju ke perangkat ODC (Optical Distribution Cabinet)?[cite: 1]
+                        <strong>Pertanyaan:</strong> Berdasarkan arsitektur jaringan luas FTTH, jenis kabel utama apakah yang bertugas menghubungkan langsung antara modul FTM di Central Office menuju ke perangkat ODC (Optical Distribution Cabinet)?
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -671,7 +671,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Menggunakan Kabel Feeder berwarna kuning yang menjadi tulang punggung (backbone) utama.[cite: 1]</span>
+                                    <span class="correct-answer">Menggunakan Kabel Feeder berwarna kuning yang menjadi tulang punggung (backbone) utama.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Dalam hierarki OSP (Outside Plant) FTTH: <br>1. Kabel Feeder (Kabel Primer) = Dari Sentral OLT/FTM ke ODC. <br>2. Kabel Distribusi (Kabel Sekunder) = Dari ODC ke tiang ODP. <br>3. Kabel Drop = Dari ODP ke Rumah Pelanggan.</p>
                                 </div>
                             </li>
@@ -683,12 +683,12 @@
             <!-- Soal 25 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal25')">
-                    <span class="text-lg">Soal 25: UTP Straight dengan Lampu Pin 3 Mati[cite: 1]</span>
+                    <span class="text-lg">Soal 25: UTP Straight dengan Lampu Pin 3 Mati</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal25" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal25" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Pengujian kabel Straight menunjukkan lampu LAN tester nomor 3 tidak menyala. Analisis dampak operasional terhadap komputer adalah....[cite: 1]
+                        <strong>Pertanyaan:</strong> Pengujian kabel Straight menunjukkan lampu LAN tester nomor 3 tidak menyala. Analisis dampak operasional terhadap komputer adalah....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -696,7 +696,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Salah satu kawat jalur fungsi penerimaan data (RX) lumpuh, menyebabkan komputer bisa terus menerus mengirim paket data keluar (TX aktif) tetapi menjadi tuli tidak bisa menerima balasan apa pun.[cite: 1]</span>
+                                    <span class="correct-answer">Salah satu kawat jalur fungsi penerimaan data (RX) lumpuh, menyebabkan komputer bisa terus menerus mengirim paket data keluar (TX aktif) tetapi menjadi tuli tidak bisa menerima balasan apa pun.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Pada NIC (Network Interface Card) standar, pin 1 & 2 bertugas sebagai TX (Transmitter/Pengirim), sedangkan pin 3 & 6 bertugas sebagai RX (Receiver/Penerima). Jika pin 3 putus, sirkuit penerimaan (RX) kehilangan salah satu kawatnya, sehingga komputer tidak bisa "mendengar" (menerima download) paket masuk dari switch, meski kawat pengirim (TX) kondisinya sehat.</p>
                                 </div>
                             </li>
@@ -708,12 +708,12 @@
             <!-- Soal 26 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal26')">
-                    <span class="text-lg">Soal 26: Lintasan Fisik Terakhir FTTH[cite: 1]</span>
+                    <span class="text-lg">Soal 26: Lintasan Fisik Terakhir FTTH</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal26" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal26" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Segmen lintasan fisik terakhir pada topologi FTTH yang berfungsi menghubungkan dari tiang kotak pembagi (ODP) langsung ke perangkat ONT di dalam rumah pelanggan disebut....[cite: 1]
+                        <strong>Pertanyaan:</strong> Segmen lintasan fisik terakhir pada topologi FTTH yang berfungsi menghubungkan dari tiang kotak pembagi (ODP) langsung ke perangkat ONT di dalam rumah pelanggan disebut....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -721,7 +721,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Lintasan Kabel Drop (Drop Wire) yang strukturnya didesain khusus untuk rentangan ditarik ke rumah.[cite: 1]</span>
+                                    <span class="correct-answer">Lintasan Kabel Drop (Drop Wire) yang strukturnya didesain khusus untuk rentangan ditarik ke rumah.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> "Drop Wire" adalah istilah teknis industri untuk menyebut kabel serat optik tipe kecil (biasanya gepeng dengan sling kawat pelindung) yang ditarik dari kotak FAT/ODP menuju roset di dalam rumah pelanggan. Jaraknya dibatasi (biasanya max 150m) untuk menjaga integritas struktural kabel di udara.</p>
                                 </div>
                             </li>
@@ -733,12 +733,12 @@
             <!-- Soal 27 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal27')">
-                    <span class="text-lg">Soal 27: Kerugian Susunan Warna Kabel UTP Acak[cite: 1]</span>
+                    <span class="text-lg">Soal 27: Kerugian Susunan Warna Kabel UTP Acak</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal27" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal27" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Kerugian jangka panjang paling vital jika teknisi di suatu gedung menggunakan susunan warna sembarangan (meskipun urutan A dan B sama) adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Kerugian jangka panjang paling vital jika teknisi di suatu gedung menggunakan susunan warna sembarangan (meskipun urutan A dan B sama) adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -746,7 +746,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Pihak manajemen gedung akan sangat disulitkan saat mendeteksi masalah proses pemeliharaan (troubleshooting) ketika vendor atau teknisi jaringan lain menggantikannya di kemudian hari[cite: 1]</span>
+                                    <span class="correct-answer">Pihak manajemen gedung akan sangat disulitkan saat mendeteksi masalah proses pemeliharaan (troubleshooting) ketika vendor atau teknisi jaringan lain menggantikannya di kemudian hari</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Selain masalah crosstalk (penurunan kualitas fisik data), dari sudut pandang manajemen infrastruktur IT, membuat standar pinout sendiri menyalahi SOP global (TIA/EIA-568). Saat ada kerusakan kabel dan teknisi baru datang untuk menyambung ulang salah satu ujung, ia pasti akan mengandalkan standar T568A/B. Hasilnya jaringan akan gagal tersambung dan menimbulkan downtime yang tidak perlu (menyusahkan troubleshooting dokumentasi).</p>
                                 </div>
                             </li>
@@ -758,12 +758,12 @@
             <!-- Soal 28 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal28')">
-                    <span class="text-lg">Soal 28: Kesalahan Pemutusan Akses Pelanggan[cite: 1]</span>
+                    <span class="text-lg">Soal 28: Kesalahan Pemutusan Akses Pelanggan</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal28" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Teknisi bermaksud memutus akses pelanggan A, namun ternyata internet pelanggan B yang terputus. Akar kesalahan fatal manajemen infrastruktur pasif ini terletak pada....[cite: 1]
+                        <strong>Pertanyaan:</strong> Teknisi bermaksud memutus akses pelanggan A, namun ternyata internet pelanggan B yang terputus. Akar kesalahan fatal manajemen infrastruktur pasif ini terletak pada....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -771,7 +771,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kelalaian penamaan rute identitas (Labeling port) kabel optik di dalam panel ODP yang tidak didokumentasikan dengan akurat.[cite: 1]</span>
+                                    <span class="correct-answer">Kelalaian penamaan rute identitas (Labeling port) kabel optik di dalam panel ODP yang tidak didokumentasikan dengan akurat.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Kesalahan cabut port di ODP murni diakibatkan kelalaian administratif fisik, yaitu labeling kabel. Setiap ujung drop wire pelanggan yang ditancapkan ke adaptor ODP harus diberi tag label identitas pelanggan. Tanpa label port, teknisi ibarat menebak jarum di jerami, yang berujung pada terganggunya SLA layanan pelanggan lain.</p>
                                 </div>
                             </li>
@@ -783,12 +783,12 @@
             <!-- Soal 29 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal29')">
-                    <span class="text-lg">Soal 29: Koneksi Direct Dua Laptop dengan UTP Straight[cite: 1]</span>
+                    <span class="text-lg">Soal 29: Koneksi Direct Dua Laptop dengan UTP Straight</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal29" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal29" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Dua laptop lama ingin dihubungkan langsung menggunakan satu kabel UTP Straight. Secara teoritis, koneksi ini akan gagal karena....[cite: 1]
+                        <strong>Pertanyaan:</strong> Dua laptop lama ingin dihubungkan langsung menggunakan satu kabel UTP Straight. Secara teoritis, koneksi ini akan gagal karena....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -796,7 +796,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Jalur pin TX (pengirim) laptop pertama bertabrakan secara fisik langsung dengan pin TX laptop kedua, sehingga tidak tersedia jalur kawat khusus sebagai medium penerima (RX).[cite: 1]</span>
+                                    <span class="correct-answer">Jalur pin TX (pengirim) laptop pertama bertabrakan secara fisik langsung dengan pin TX laptop kedua, sehingga tidak tersedia jalur kawat khusus sebagai medium penerima (RX).</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Hardware kartu jaringan (NIC) pada laptop memiliki pin 1,2 sebagai TX dan 3,6 sebagai RX. Kabel Straight (lurus) mempertahankan urutan ini. Jika ujung A ditancap ke laptop 1 dan ujung B ke laptop 2, maka TX laptop 1 terhubung langsung dengan TX laptop 2 (bentrok sesama pengirim), bukan disilang ke RX. Itulah sebabnya menghubungkan dua perangkat sejenis (PC ke PC) harus menyilangkan kawatnya menggunakan kabel jenis Crossover (kecuali jika NIC sudah canggih dengan fitur Auto-MDIX).</p>
                                 </div>
                             </li>
@@ -808,12 +808,12 @@
             <!-- Soal 30 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal30')">
-                    <span class="text-lg">Soal 30: Fungsi Router Mikrotik Sebelum OLT[cite: 1]</span>
+                    <span class="text-lg">Soal 30: Fungsi Router Mikrotik Sebelum OLT</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal30" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Fungsi esensial router enterprise (seperti Mikrotik) yang lazim dipasang persis sebelum perangkat OLT dalam rantai topologi jaringan ISP adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Fungsi esensial router enterprise (seperti Mikrotik) yang lazim dipasang persis sebelum perangkat OLT dalam rantai topologi jaringan ISP adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -821,7 +821,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Menghandle keseluruhan proses routing BGP, aturan firewall NAT, dan manajemen limitasi tagihan bandwidth PPPoE ke pelanggan.[cite: 1]</span>
+                                    <span class="correct-answer">Menghandle keseluruhan proses routing BGP, aturan firewall NAT, dan manajemen limitasi tagihan bandwidth PPPoE ke pelanggan.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> OLT (Optical Line Terminal) utamanya adalah jembatan L2/L3 ringan untuk merubah sinyal elektrik L3 menjadi fiber PON pasif. OLT tidak dirancang untuk menangani manipulasi IP (NAT), limitasi paket rate-limit per-klien, atau menampung database dial-up PPPoE server dengan efisien. Itulah tugas berat mikroprosesor Router (seperti Mikrotik/Cisco/Juniper) yang bertindak sebagai BNG (Broadband Network Gateway) di belakang OLT.</p>
                                 </div>
                             </li>
@@ -833,12 +833,12 @@
             <!-- Soal 31 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal31')">
-                    <span class="text-lg">Soal 31: Jenis Kabel Optik Standar FTTH BIDI[cite: 1]</span>
+                    <span class="text-lg">Soal 31: Jenis Kabel Optik Standar FTTH BIDI</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal31" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal31" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Provider FTTH menetapkan standarisasi spektrum transmisi pada gelombang 1310 nm dan 1490 nm dalam satu core (BIDI). Jenis kabel optik arsitektural yang mutlak wajib digunakan adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Provider FTTH menetapkan standarisasi spektrum transmisi pada gelombang 1310 nm dan 1490 nm dalam satu core (BIDI). Jenis kabel optik arsitektural yang mutlak wajib digunakan adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -846,7 +846,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kabel Fiber Optik jenis Singlemode yang memiliki penampang inti sangat kecil untuk menjaga lintasan cahaya lurus[cite: 1]</span>
+                                    <span class="correct-answer">Kabel Fiber Optik jenis Singlemode yang memiliki penampang inti sangat kecil untuk menjaga lintasan cahaya lurus</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Spektrum gelombang optik 1310 nm (untuk upload) dan 1490 nm (untuk download) adalah standar frekuensi mutlak dari teknologi GPON BIDI (Bidirectional). Gelombang inframerah berfrekuensi panjang ini harus merambat lurus jarak jauh tanpa pemantulan, sehingga wajib menggunakan material kabel Singlemode dengan ukuran inti mikroskopis 9 mikron.</p>
                                 </div>
                             </li>
@@ -858,12 +858,12 @@
             <!-- Soal 32 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal32')">
-                    <span class="text-lg">Soal 32: Koneksi OLT ke ODF Tanpa Splicing[cite: 1]</span>
+                    <span class="text-lg">Soal 32: Koneksi OLT ke ODF Tanpa Splicing</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal32" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal32" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Untuk merancang koneksi fisik dari Port PON pada OLT menuju panel ODF tanpa teknik penyambungan, komponen pasif yang paling ideal digunakan adalah.....[cite: 1]
+                        <strong>Pertanyaan:</strong> Untuk merancang koneksi fisik dari Port PON pada OLT menuju panel ODF tanpa teknik penyambungan, komponen pasif yang paling ideal digunakan adalah.....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -871,7 +871,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Peralatan Fiber Optic Patchcord siap pakai pabrikan yang sudah dilengkapi keramik konektor tingkat presisi di kedua ujungnya.[cite: 1]</span>
+                                    <span class="correct-answer">Peralatan Fiber Optic Patchcord siap pakai pabrikan yang sudah dilengkapi keramik konektor tingkat presisi di kedua ujungnya.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Untuk menyambungkan antar perangkat (dari OLT ke ODF, atau PC ke Switch) di ruangan yang sama dengan sistem "Plug and Play" (tanpa alat bakar splicer), kita menggunakan Patchcord Fiber. Patchcord adalah kabel pendek siap pakai yang kedua ujungnya sudah di-crimping konektor paten oleh pabrik (misal SC/UPC), menjamin loss yang amat kecil.</p>
                                 </div>
                             </li>
@@ -883,12 +883,12 @@
             <!-- Soal 33 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal33')">
-                    <span class="text-lg">Soal 33: Kabel FO Indoor Jarak Dekat (10m)[cite: 1]</span>
+                    <span class="text-lg">Soal 33: Kabel FO Indoor Jarak Dekat (10m)</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal33" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal33" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Perusahaan berencana memasang kabel Fiber Optik khusus di dalam ruangan (indoor) untuk menghubungkan dua switch di ruang server dengan jarak hanya 10 meter. Secara arsitektur, pemilihan jenis kabel optik paling efisien biaya namun berkinerja tinggi untuk kebutuhan jarak pendek ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Perusahaan berencana memasang kabel Fiber Optik khusus di dalam ruangan (indoor) untuk menghubungkan dua switch di ruang server dengan jarak hanya 10 meter. Secara arsitektur, pemilihan jenis kabel optik paling efisien biaya namun berkinerja tinggi untuk kebutuhan jarak pendek ini adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -896,7 +896,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Kabel Fiber Optik jenis Multimode yang menggunakan sumber pemancar cahaya LED[cite: 1]</span>
+                                    <span class="correct-answer">Kabel Fiber Optik jenis Multimode yang menggunakan sumber pemancar cahaya LED</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Untuk kebutuhan ruangan indoor yang sangat pendek (seperti antar rak di datacenter), menggunakan laser Singlemode seringkali overkill secara biaya, mengingat modul SFP laser sangat mahal. Kabel Multimode dengan pemancar LED atau VCSEL jauh lebih murah. Meskipun memiliki limitasi jarak penyebaran modal dispersi, hal itu tidak masalah sama sekali untuk jarak sependek 10 meter.</p>
                                 </div>
                             </li>
@@ -908,12 +908,12 @@
             <!-- Soal 34 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal34')">
-                    <span class="text-lg">Soal 34: Gangguan WiFi karena Halangan Fisik[cite: 1]</span>
+                    <span class="text-lg">Soal 34: Gangguan WiFi karena Halangan Fisik</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal34" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal34" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Modem ONU pelanggan di lantai 1 terhalang beton dapur yang tebal. Pelanggan menyalahkan ISP karena internet di lantai 2 sangat lambat, padahal lampu optik PON berwarna hijau stabil. Evaluasi teknis atas hal tersebut adalah.....[cite: 1]
+                        <strong>Pertanyaan:</strong> Modem ONU pelanggan di lantai 1 terhalang beton dapur yang tebal. Pelanggan menyalahkan ISP karena internet di lantai 2 sangat lambat, padahal lampu optik PON berwarna hijau stabil. Evaluasi teknis atas hal tersebut adalah.....
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -921,7 +921,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Gangguan kecepatan murni disebabkan buruknya jangkauan propagasi sinyal WiFi akibat halangan fisik, bukan masalah fiber optik.[cite: 1]</span>
+                                    <span class="correct-answer">Gangguan kecepatan murni disebabkan buruknya jangkauan propagasi sinyal WiFi akibat halangan fisik, bukan masalah fiber optik.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> Status lampu 'PON hijau stabil' merupakan validasi di level fisik L1 dan link L2 bahwa fiber optik tidak terputus (redaman aman) dan sinkronisasi ke OLT sukses. Jika internet di lantai atas lemot, ini sepenuhnya adalah batas fisika gelombang radio (WLAN) yang tidak mampu menembus hambatan padat seperti cor beton. Solusinya memasang perangkat Access Point tambahan di lantai atas via kabel LAN, bukan menyalahkan kualitas kabel FO ISP.</p>
                                 </div>
                             </li>
@@ -933,12 +933,12 @@
             <!-- Soal 35 -->
             <div class="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden">
                 <button class="w-full px-6 py-5 text-left font-semibold text-gray-800 hover:bg-gray-50 focus:outline-none flex justify-between items-center transition-colors" onclick="toggleAccordion('soal35')">
-                    <span class="text-lg">Soal 35: Keamanan Penggantian Modul SFP Hot-Pluggable[cite: 1]</span>
+                    <span class="text-lg">Soal 35: Keamanan Penggantian Modul SFP Hot-Pluggable</span>
                     <svg class="w-6 h-6 text-blue-500 transform transition-transform duration-200" id="icon-soal35" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div id="soal35" class="accordion-content px-6 py-6 border-t border-gray-100 bg-gray-50">
                     <div class="mb-5 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 text-gray-800">
-                        <strong>Pertanyaan:</strong> Saat operasional kantor sedang sibuk, satu modul SFP pada Core Switch rusak. Untuk menjaga ketersediaan layanan pada port VLAN lain, teknisi mencabut SFP yang rusak dan menancapkan SFP baru tanpa mematikan daya switch tersebut. Evaluasi keamanan tindakan teknisi ini adalah...[cite: 1]
+                        <strong>Pertanyaan:</strong> Saat operasional kantor sedang sibuk, satu modul SFP pada Core Switch rusak. Untuk menjaga ketersediaan layanan pada port VLAN lain, teknisi mencabut SFP yang rusak dan menancapkan SFP baru tanpa mematikan daya switch tersebut. Evaluasi keamanan tindakan teknisi ini adalah...
                     </div>
                     <div class="bg-white p-5 rounded-lg border border-gray-200 mb-4 shadow-sm">
                         <h4 class="font-bold text-gray-700 mb-3">Evaluasi Jawaban:</h4>
@@ -946,7 +946,7 @@
                             <li class="flex items-start">
                                 <span class="text-green-600 mr-2">✓</span>
                                 <div>
-                                    <span class="correct-answer">Sangat aman, karena perangkat modul SFP memiliki sifat hot-pluggable saat sistem berjalan.[cite: 1]</span>
+                                    <span class="correct-answer">Sangat aman, karena perangkat modul SFP memiliki sifat hot-pluggable saat sistem berjalan.</span>
                                     <p class="text-sm text-gray-600 mt-1"><strong>Analisis:</strong> "SFP" (Small Form-factor Pluggable) diciptakan dengan teknologi *Hot-Swappable* atau *Hot-Pluggable*. Artinya, modul kelistrikannya didesain khusus agar aman untuk dicabut dan dipasang kembali ke slot motherboard perangkat jaringan tanpa harus mematikan (shutdown) mesin switch utamanya, sehingga layanan koneksi port lain tidak terganggu sama sekali.</p>
                                 </div>
                             </li>
